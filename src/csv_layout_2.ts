@@ -8,7 +8,7 @@ type Column = {
 type AddonFunction = (user: User) => Column[];
 
 const getProductsCsvLayout = async (user: User): Promise<Column[]> => {
-  const addonModulePath = "./addonx.js";
+  const addonModulePath = "./addon.js";
   return import(addonModulePath)
     .then((module) => {
       // アドオンモジュールが存在する場合はそれを利用

@@ -1,0 +1,24 @@
+{
+  "name": "yagni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sample1": "ts-node --esm src/main_1.ts",
+    "sample2": "ts-node --esm src/main_2.ts",
+    "sample3": "ts-node --esm src/main_3.ts",
+    "sample4": "ts-node --esm src/main_4.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0"
+  }
+}
